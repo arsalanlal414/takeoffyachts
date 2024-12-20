@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Sora';
+    src: url('./assets/fonts/Sorhe-Regular.otf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sora';
+    src: url('./assets/fonts/Sorhe-Bold.otf') format('truetype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+  
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
