@@ -16,3 +16,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.sidebar {
+    transition: transform 0.3s ease-in-out;
+}
+.sidebar-hidden {
+    transform: translateX(-100%);
+}
+.sidebar-visible {
+    transform: translateX(0);
+}
